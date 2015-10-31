@@ -1,10 +1,10 @@
 //This is the title for your window tab, and your Radar
-document.title = "WotifGroup's Technology Radar (December 2014)";
+document.title = "Adrian Petras - Technology Radar (November 2015)";
 
 
 //This is the concentic circles that want on your radar
 var radar_arcs = [
-                   {'r':100,'name':'Adopt'}
+                   {'r':110,'name':'Adopt'}
                   ,{'r':200,'name':'Trial'}
                   ,{'r':300,'name':'Assess'}
                   ,{'r':400,'name':'Hold'}
@@ -39,11 +39,12 @@ var radar_arcs = [
 // - Programming Languages and Frameworks
 //
 // Rings:
-// - Adopt: blips you should be using now; proven and mature for use
-// - Trial: blips ready for use, but not as completely proven as those in the adopt ring; use on a trial basis, to decide whether they should be part of your toolkit
-// - Assess: things that you should look at closely, but not necessarily trial yet - unless you think they would be a particularly good fit for you
-// - Hold: things that are getting attention in the industry, but not ready for use; sometimes they are not mature enough yet, sometimes they are irredeemably flawed
-//      Note: there's no "avoid" ring, but throw things in the hold ring that people shouldn't use.
+// - Adopt: blips you should be using now; proven and mature for use; people will make fun of you if you don't
+// - Trial: technologies worth pursuing; use it to pilot a low-risk project, to "get dirty" with the technology so that you can really understand it
+//          for a technology to be promoted to trial, it must be used in project work to understand both its weaknesses and strengths
+// - Assess: technologies worth exploring with the goal of understanding their impact; should be used in development spikes and research projects;  
+//           the assess phase usualy shows benefits but not limitations
+// - Hold: not appropriate for use; don't start anything new with this technology
 
 var h = 1000;
 var w = 1200;
