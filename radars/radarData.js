@@ -76,7 +76,7 @@ var radar_data = [
         "items" : [
             //adopt
             { "name": 'Liquibase', "pc": { r: 80, t: 65 }, "movement": 'c' },
-            { name: "Postnam", pc: {r: 75, t: 35}, movement: "c"},
+            { name: "Postman", pc: {r: 75, t: 35}, movement: "c"},
             {name: "PlantUML", pc: {r: 60, t: 40}, movement: "t"},
 
             //trial
